@@ -41,6 +41,6 @@ function removeElementFromEndOfArray (array) {
 }
 
 function removeElementFromBeginningOfArray (array) {
-  var array = array.slice(1)
+  var array = array.slice(0)
   return array
 }
